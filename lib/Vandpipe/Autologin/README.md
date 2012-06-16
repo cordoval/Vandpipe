@@ -34,3 +34,18 @@ $twig->addExtension(new AutologinExtension($generator))
 {# Returns the autologin generated string. #}
 {{ user|autologin }}
 ```
+
+Jmikola AutoLoginBundle
+-----------------------
+
+The `UserProvider` class is an implementation of `AutoLoginUserProvider` for [JmikolaAutoLoginBundle](http://github.com/jmikola/jmikolaautologinbundle).
+
+``` php
+<?php
+
+use Vandpipe\Autologin\UserProvider;
+use Vandpipe\Autologin\Generator;
+use Symfony\Component\Security\Core\User\UserProviderInterface;
+
+$provider = new UserProvider(UserProviderInterface $provider, Generator $generator);
+```
