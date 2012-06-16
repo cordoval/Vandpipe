@@ -1,0 +1,14 @@
+{
+    "name" : "henrikbjorn/vandpipe",
+    "autoload" : {
+        "psr-0" : {
+            "Vandpipe" : "lib"
+        }
+    },
+    "require" : {
+        "php"                       : ">=5.3.3",
+        "symfony/symfony"           : ">=2.1",
+        "twig/twig"                 : ">=1.8.0",
+        "jmikola/auto-login-bundle" : "*"
+    }
+}
