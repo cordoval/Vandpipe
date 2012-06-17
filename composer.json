@@ -1,5 +1,6 @@
 {
     "name" : "henrikbjorn/vandpipe",
+    "license" : "MIT",
     "autoload" : {
         "psr-0" : {
             "Vandpipe" : "lib"
